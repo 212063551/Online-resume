@@ -1,10 +1,10 @@
 import * as React from 'react';
-import { createBrowserRouter } from 'react-router-dom';
+import { createHashRouter } from 'react-router-dom';
 import Layout from '@/layouts';
 import { Docs, Login, NotFound } from '@/pages';
 import { zh, en } from '@/lang';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
 	{
 		path: '',
 		element: <Layout />,
@@ -20,7 +20,7 @@ const router = createBrowserRouter([
 				loader: () => '在线简历',
 			},
 			{
-				index: true,
+				path: '/',
 				element: <Login />,
 				loader: () => '请输入查看码 —— 在线简历',
 			},

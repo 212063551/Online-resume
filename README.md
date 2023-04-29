@@ -2,7 +2,7 @@
 
 #### 快速初始化
 
-项目在线预览：https://212063551.github.io/Online-resume/
+项目在线预览：<a href='https://212063551.githugitb.io/Online-resume/' target='_blank' rel='noopener noreferrer'>https://212063551.githugitb.io/Online-resume/</a>
 
 ```bash
 # 先克隆项目
