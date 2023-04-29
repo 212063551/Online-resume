@@ -1,0 +1,162 @@
+#content {
+	width: 970px;
+	margin: 20px auto;
+}
+#content > .content > .docs {
+	padding: 30px;
+	background-color: #ffffff;
+	.me_header {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 10px;
+		position: relative;
+		.languages {
+			width: 16px;
+			height: 16px;
+			position: absolute;
+			left: 95%;
+			top: -5%;
+			.languageIcon {
+				font-size: 22px;
+				cursor: pointer;
+			}
+		}
+		.me {
+			display: flex;
+			height: 140px;
+			.mes {
+				display: flex;
+				flex-direction: column;
+				align-items: flex-start;
+				justify-content: space-evenly;
+				margin-left: 50px;
+			}
+			.name {
+				font-size: 40px;
+			}
+			.position {
+				font-size: 16px;
+			}
+		}
+		img {
+			width: 105px;
+			height: 140px;
+		}
+	}
+	.contact {
+		display: flex;
+		flex-direction: column;
+		margin-right: 30px;
+		div {
+			display: flex;
+			flex-direction: column;
+			span {
+				margin: 5px;
+				font-size: 14px;
+				display: flex;
+				align-items: center;
+				.icon {
+					margin-right: 10px;
+					font-size: 16px;
+				}
+			}
+		}
+	}
+}
+.contents {
+	display: flex;
+	flex-direction: column;
+	line-height: 20px;
+	font-size: 14px;
+	padding: 0 20px;
+	line-height: 180%;
+	.projectExperience {
+		position: relative;
+		.projectExperienceTime {
+			position: absolute;
+			right: 0;
+		}
+		.projectExperienceContent {
+			display: flex;
+			flex-direction: column;
+			.projectContents {
+				padding: 5px 30px;
+			}
+		}
+		div {
+			margin-bottom: 10px;
+			display: flex;
+			h4 {
+				margin: 0 5px 0 5px;
+			}
+			.url {
+				margin-left: 30px;
+			}
+		}
+	}
+	p {
+		margin: 5px 0;
+	}
+	header {
+		display: flex;
+		justify-content: space-between;
+		margin: 5px 10px;
+		font-size: 14px;
+	}
+	ul {
+		padding-left: 20px;
+		li {
+			margin: 10px 0;
+		}
+	}
+}
+@media (max-width: 1024px) {
+	#content {
+		width: 100vw !important;
+	}
+}
+@media (max-width: 800px) {
+	#content {
+		margin: 0px !important;
+	}
+	#content > .content > .docs {
+		height: 100%;
+		padding: 30px 20px 20px 20px;
+	}
+	.me_header {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+	}
+	.name {
+		font-size: 30px !important;
+	}
+	.contact {
+		margin-top: 10px !important;
+		margin-right: 0 !important;
+	}
+}
+@media (max-width: 500px) {
+	.contents {
+		display: flex;
+		flex-direction: column;
+		header {
+			display: flex;
+			flex-direction: column;
+			span {
+				margin: 5px 0;
+			}
+		}
+	}
+	#content {
+		margin-top: 0px !important;
+	}
+	.me_header {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+	}
+	.mes {
+		margin-left: 20px !important;
+	}
+}
