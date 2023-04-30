@@ -58,10 +58,10 @@ const data: LanguageTypes = {
 			startDate: 'xxxx year xx month',
 			endDate: 'xxxx year xx month',
 			description: 'A simple online resume presentation page',
-			technology: 'React  Less  TypeScript ',
+			technology: 'React  SCSS  TypeScript ',
 			url: '',
 			content:
-				'The project is created based on react, uses Less and TypeScript, adapts to the mobile end, uses route guards, and cannot enter the resume page without obtaining the view code. The resume language can be switched in the upper right corner, and the view code can be set or modified in the root directory config.ts. If you know the technology, you can start a service yourself to modify or generate the lookup code. Then more functions can be achieved.',
+				'The project is created based on react, uses SCSS and TypeScript, adapts to the mobile end, uses route guards, and cannot enter the resume page without obtaining the view code. The resume language can be switched in the upper right corner, and the view code can be set or modified in the root directory config.ts. If you know the technology, you can start a service yourself to modify or generate the lookup code. Then more functions can be achieved.',
 		},
 	],
 

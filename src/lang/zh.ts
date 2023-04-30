@@ -75,10 +75,10 @@ const data: LanguageTypes = {
 			startDate: 'xxxx年xx月',
 			endDate: 'xxxx年xx月',
 			description: '一个简单在线简历展示网页',
-			technology: 'React  Less  TypeScript ',
+			technology: 'React  SCSS  TypeScript ',
 			url: '',
 			content:
-				'项目基于 react 创建，使用了 Less 和 TypeScript，适配了移动端，使用了路由守卫，未获取查看码，无法进入简历页面，右上角可切换简历语言，查看码在根目录config.ts设置或修改。如果你懂技术可以自己启动一个服务来修改或生成查看码。那就可以实现更多功能。',
+				'项目基于 react 创建，使用了 SCSS 和 TypeScript，适配了移动端，使用了路由守卫，未获取查看码，无法进入简历页面，右上角可切换简历语言，查看码在根目录config.ts设置或修改。如果你懂技术可以自己启动一个服务来修改或生成查看码。那就可以实现更多功能。',
 		},
 	],
 	/** 自我评价 */
