@@ -26,7 +26,7 @@ export const password = '你的密码';
 ```
 
 #### 项目简述
-* 项目基于 react 创建，使用了 Less 和 TypeScript
+* 项目基于 react 创建，使用了 SCSS 和 TypeScript
 * 适配了移动端，使用了路由守卫，未获取查看码，无法进入简历页面
 * 右上角可切换简历语言目前仅支持中英文（英文为机翻，不一定准确，请以中文为准）
 * 查看码在 src 目录 config.ts 中设置或修改。
@@ -56,7 +56,7 @@ Npm run dev | | yarn dev
 Export const password = 'your password'
 ```
 # Project Overview
-* The project is based on react and uses Less and TypeScript
+* The project is based on react and uses SCSS and TypeScript
 * Adapted to the mobile end, used routing guards, did not get the access code, and could not enter the resume page
 * Switchable resume language in the upper right corner currently supports only Chinese and English (English is machine translation, not necessarily accurate, please prevail in Chinese)
 * The view code is set or modified in the src directory config.ts.
